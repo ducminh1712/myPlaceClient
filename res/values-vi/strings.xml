@@ -1,0 +1,50 @@
+﻿<resources>
+
+    <string name="app_name_prefix">Mạng Xã Hội Giao Thông</string>
+    <string name="app_name">MyWay</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Thiết Lập</string>
+    <string name="title_activity_main">MyWay</string>
+    <string name="title_activity_traffic_map">Bản Đồ Giao Thông</string>
+    <string name="title_activity_login">Đăng Nhập</string>
+    <string name="title_activity_signup">Đăng Ký</string>
+    <string name="title_activity_report_map">Tạo</string>
+    <string name="title_activity_detail">Nội dung cảnh báo</string>
+    <string name="latitude">Vĩ độ : </string>
+    <string name="longitude">Kinh độ : </string>
+    <string name="accuracy">Sai số : </string>
+    <string name="provider">Nhà cung cấp : </string>
+    <string name="incident_type_prompt">Chọn thể loại cho sự kiện bạn muốn thông báo</string>
+    <string name="incident_type_0">Tắc đường</string>
+    <string name="incident_type_1">Tai nạn</string>
+    <string name="incident_type_2">Chắn đường</string>
+
+    <string-array name="incident_type_arrays">
+        <item>Tắc đường</item>
+        <item>Tai nạn</item>
+        <item>Chắn đường</item>
+    </string-array>
+
+    <string name="username_edt_hint">Tên đăng nhập</string>
+    <string name="password_edt_hint">Mật khẩu</string>
+    <string name="re_password_edt_hint">Xác nhận mật khẩu</string>
+    <string name="login_act_header">Đăng Nhập</string>
+    <string name="btn_confirm">Xác nhận</string>
+    <string name="toast_usr_pass_null">Tên đăng nhập và mật khẩu không được rỗng</string>
+    <string name="toast_usr_pass_check_failed">Tên đăng nhập học mật khẩu sai</string>
+    <string name="toast_pass_repass_error">Mật khẩu xác nhận không khớp</string>
+    <string name="register_act_header">Đăng Ký</string>
+    <string name="menu_time_filter">Lọc theo thời gian</string>
+    <string name="menu_add">Tạo sự kiện</string>
+    <string name="menu_add_confirm">Tạo</string>
+    <string name="menu_type_filter">Lọc theo thể loại</string>
+    <string name="menu_filter_toast">Chọn khoảng thời gian của sự kiện gần đây bạn muốn xem</string>
+    <string name="menu_filter_success_toast">Thiết lập lọc theo thời gian : </string>
+    <string name="reg_text_btn"><u>Tạo tài khoản</u></string>
+    <string name="login_user_toast"><u>Đăng nhập với tài khoản : </u></string>
+    <string name="network_error">Lỗi mạng</string>
+    <string name="duplicate_error">Tên tài khoản đã có người sử dụng. Vui lòng chọn tên khác.</string>
+    <string name="api_key_laptop">0pO5vO6nJAszQbx_D4JwG6up9P9QIU_9F5BLW_g</string>
+    <string name="api_key_desktop">0pO5vO6nJAsxxgnLPOYMa17bBcfkVtyWfPbC8PA</string>
+
+</resources>

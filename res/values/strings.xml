@@ -1,0 +1,50 @@
+<resources>
+
+    <string name="app_name_prefix">Traffic Social Network</string>
+    <string name="app_name">MyWay</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MyWay</string>
+    <string name="title_activity_traffic_map">Traffic Map</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_signup">Sign Up</string>
+    <string name="title_activity_report_map">Report</string>
+    <string name="title_activity_detail">Incident Details</string>
+    <string name="latitude">Latitude : </string>
+    <string name="longitude">Longitude : </string>
+    <string name="accuracy">Accuracy : </string>
+    <string name="provider">Provider : </string>
+    <string name="incident_type_prompt">Choose an event to report</string>
+    <string name="incident_type_0">Traffic Jam</string>
+    <string name="incident_type_1">Accident</string>
+    <string name="incident_type_2">Blocked</string>
+
+    <string-array name="incident_type_arrays">
+        <item>Traffic Jam</item>
+        <item>Accident</item>
+        <item>Blocked</item>
+    </string-array>
+
+    <string name="username_edt_hint">Your username</string>
+    <string name="password_edt_hint">Your password</string>
+    <string name="re_password_edt_hint">Your password again</string>
+    <string name="login_act_header">Login</string>
+    <string name="btn_confirm">Confirm</string>
+    <string name="toast_usr_pass_null">Username and Password must not be null</string>
+    <string name="toast_usr_pass_check_failed">Username or Password is incorrect</string>
+    <string name="toast_pass_repass_error">check your password again </string>
+    <string name="register_act_header">Register</string>
+    <string name="menu_time_filter">Time Filter</string>
+    <string name="menu_add">Post your event</string>
+    <string name="menu_add_confirm">Post</string>
+    <string name="menu_type_filter">Type Filter</string>
+    <string name="menu_filter_toast">Choose Time Filter for Incidents showing on Map</string>
+    <string name="menu_filter_success_toast">Set Time Filter to </string>
+    <string name="reg_text_btn"><u>Create Account</u></string>
+    <string name="login_user_toast"><u>Logged in as</u></string>
+    <string name="network_error">Network Error</string>
+    <string name="duplicate_error">Username taken. Please choose another</string>
+    <string name="api_key_laptop">0LvbhcZboyJbctuHRCoRPx7q2AMiUVJFeQM07KA</string>
+    <string name="api_key_desktop">0LvbhcZboyJbctuHRCoRPx7q2AMiUVJFeQM07KA</string>
+
+</resources>

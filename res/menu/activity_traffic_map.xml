@@ -1,0 +1,79 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_add"
+        android:icon="@android:drawable/ic_menu_add"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/menu_add">
+    </item>
+    <item
+        android:id="@+id/map_refresh"
+        android:icon="@drawable/ic_menu_refresh"
+        android:orderInCategory="2"
+        android:showAsAction="always"
+        android:title="Refresh"/>
+    <item
+        android:id="@+id/menu_time_filter"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:orderInCategory="1"
+        android:showAsAction="always"
+        android:title="@string/menu_time_filter">
+        <menu>
+            <group
+                android:id="@+id/time_filter_group"
+                android:checkableBehavior="single" >
+                <item
+                    android:id="@+id/min10"
+                    android:title="10 min"/>
+                <item
+                    android:id="@+id/min30"
+                    android:title="30 min"/>
+                <item
+                    android:id="@+id/hour1"
+                    android:title="1 h"/>
+                <item
+                    android:id="@+id/hour3"
+                    android:title="3 h"/>
+                <item
+                    android:id="@+id/hour6"
+                    android:title="6 h"/>
+                <item
+                    android:id="@+id/hour12"
+                    android:checked="true"
+                    android:title="12 h"/>
+                 <item
+                    android:id="@+id/all"
+                    android:title="all"/>
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_type_filter"
+        android:icon="@android:drawable/ic_menu_sort_alphabetically"
+        android:orderInCategory="1"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_type_filter">
+        <menu>
+            <item
+                android:id="@+id/type0"
+                android:checkable="true"
+                android:checked="true"
+                android:orderInCategory="1"
+                android:title="@string/incident_type_0"/>
+            <item
+                android:id="@+id/type1"
+                android:checkable="true"
+                android:checked="true"
+                android:orderInCategory="2"
+                android:title="@string/incident_type_1"/>
+            <item
+                android:id="@+id/type2"
+                android:checkable="true"
+                android:checked="true"
+                android:orderInCategory="3"
+                android:title="@string/incident_type_2"/>
+        </menu>
+    </item>
+
+</menu>
